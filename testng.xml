@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.hrms.testscripts.Tc005AdminJobTitle"/>
+      <class name="com.hrms.testscripts.Tc009changePW"/>
+      <class name="com.hrms.testscripts.Tc002_AddNewEmp"/>
+      <class name="com.hrms.testscripts.Tc006AdminQualiEdu"/>
+      <class name="com.hrms.testscripts.TC003"/>
+      <class name="com.hrms.testscripts.Tc004DeleEmp"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
